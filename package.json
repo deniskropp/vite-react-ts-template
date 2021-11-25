@@ -1,5 +1,5 @@
 {
-  "name": "amz-auto-ads",
+  "name": "vite-react-ts",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
@@ -7,13 +7,25 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "history": "5",
     "react": "^17.0.0",
-    "react-dom": "^17.0.0"
+    "react-dom": "^17.0.0",
+    "react-router-dom": "6"
   },
   "devDependencies": {
+    "@types/node": "^16.11.10",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
     "@vitejs/plugin-react": "^1.0.0",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "eslint": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.27.1",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "prettier": "^2.4.1",
+    "sass": "^1.43.5",
     "typescript": "^4.3.2",
     "vite": "^2.6.4"
   }
