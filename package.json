@@ -1,6 +1,23 @@
 {
   "name": "vite-react-ts-template",
   "version": "1.0.0",
+  "description": "Create application with Vite+React+React Router.",
+  "author": "Adam Chen",
+  "license": "MIT",
+  "keywords": [
+    "vite-react",
+    "vite-react-ts",
+    "vite-react-template",
+    "vite-react-ts-template"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamcjm/vite-react-ts-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adamcjm/vite-react-ts-template/issues"
+  },
+  "homepage": "https://github.com/adamcjm/vite-react-ts-template#readme",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
