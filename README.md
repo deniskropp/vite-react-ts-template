@@ -1,5 +1,8 @@
 # vite-react-ts-template
-Create application with Vite+React+React Router+Typescript+Eslint
+
+> Keep it easy and simple.
+
+Create application with Vite+React+React Router(v6)+Router authentication+Typescript+Eslint
 
 1. `npm install`
 2. `npm run dev`
