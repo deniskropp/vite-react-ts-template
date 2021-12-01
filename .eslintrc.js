@@ -25,7 +25,6 @@ module.exports = {
     semi: ['error', 'always'],
     'no-multiple-empty-lines': ['error', {max: 2}],
     'no-trailing-spaces': ['error', {skipBlankLines: true}],
-    // 强制使用单引号
     quotes: ['error', 'single'],
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
