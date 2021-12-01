@@ -1,10 +1,12 @@
 {
   "name": "vite-react-ts-template",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Create application with Vite+React+React Router.",
   "author": "Adam Chen",
   "license": "MIT",
   "keywords": [
+    "vite create react",
+    "react-vite",
     "vite-react",
     "vite-react-ts",
     "vite-react-template",
@@ -37,10 +39,8 @@
     "@typescript-eslint/parser": "^5.4.0",
     "@vitejs/plugin-react": "^1.0.0",
     "eslint": "^8.3.0",
-    "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.27.1",
     "eslint-plugin-react-hooks": "^4.3.0",
-    "prettier": "^2.4.1",
     "sass": "^1.43.5",
     "typescript": "^4.3.2",
     "vite": "^2.6.4"

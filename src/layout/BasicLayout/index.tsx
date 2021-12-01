@@ -1,4 +1,4 @@
-import { Outlet } from 'react-router-dom';
+import {Outlet} from 'react-router-dom';
 
 const BasicLayout = () => {
   return (
@@ -7,7 +7,7 @@ const BasicLayout = () => {
         <h1>Header</h1>
       </header>
       <main>
-        <Outlet />
+        <Outlet/>
       </main>
       <footer>
         <h1>Footer</h1>
