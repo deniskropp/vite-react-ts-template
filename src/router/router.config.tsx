@@ -1,15 +1,20 @@
 import React, {lazy} from 'react';
 import {RouteObject} from 'react-router-dom';
 import Auth from '@/router/Auth';
-import {isLoginValidator} from '@/router/router.validator';
+import {isLoginValidator, isAdminValidator} from '@/router/router.validator';
 
-const BasicLayout = lazy(() => import('@/layout/BasicLayout'));
+// layout
+import BasicLayout from '@/layout/BasicLayout';
+
+// pages(lazy load)
 const NotFound = lazy(() => import('@/pages/NotFound'));
 const Unauthorized = lazy(() => import('@/pages/Unauthorized'));
 const Login = lazy(() => import('@/pages/Login'));
 const Home = lazy(() => import('@/pages/Home'));
+const Admin = lazy(() => import('@/pages/Admin'));
 const Foo = lazy(() => import('@/pages/Foo'));
 
+// route config
 const routes: RouteObject[] = [
   {
     path: '/',
@@ -18,6 +23,10 @@ const routes: RouteObject[] = [
       {
         path: '/',
         element: <Home/>,
+      },
+      {
+        path: '/admin',
+        element: <Auth validator={isAdminValidator}><Admin/></Auth>,
       },
       {
         path: '/foo',

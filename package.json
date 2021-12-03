@@ -1,6 +1,6 @@
 {
   "name": "vite-react-ts-template",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Create application with Vite+React+React Router(v6)+Typescript+Router authentication",
   "author": "Adam Chen",
   "license": "MIT",

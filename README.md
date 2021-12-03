@@ -6,3 +6,5 @@ Create application with Vite+React+React Router(v6)+Router authentication+Typesc
 
 1. `npm install`
 2. `npm run dev`
+
+*Edit tsconfig.json if you want to add a directory alias*
