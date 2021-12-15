@@ -1,7 +1,7 @@
 {
   "name": "vite-react-ts-template",
-  "version": "1.1.2",
-  "description": "Create application with Vite+React+React Router(v6)+Typescript+Router authentication",
+  "version": "1.2.0",
+  "description": "Create application with Vite+React+React Router(v6)+Typescript+Router+@mui/material+i18n authentication",
   "author": "Adam Chen",
   "license": "MIT",
   "keywords": [
@@ -26,9 +26,21 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@fontsource/roboto": "^4.5.1",
+    "@mui/icons-material": "^5.2.1",
+    "@mui/material": "^5.2.3",
+    "ahooks": "^3.0.0-alpha.18",
+    "axios": "^0.24.0",
+    "classnames": "^2.3.1",
     "history": "5",
+    "i18next": "^21.6.0",
+    "i18next-browser-languagedetector": "^6.1.2",
+    "normalize.css": "^8.0.1",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
+    "react-i18next": "^11.15.0",
     "react-router-dom": "6"
   },
   "devDependencies": {
@@ -36,13 +48,15 @@
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
     "@typescript-eslint/eslint-plugin": "^5.4.0",
-    "@typescript-eslint/parser": "^5.4.0",
+    "@typescript-eslint/parser": "^5.6.0",
     "@vitejs/plugin-react": "^1.0.0",
     "eslint": "^8.3.0",
+    "eslint-plugin-i18next": "^5.1.2",
     "eslint-plugin-react": "^7.27.1",
     "eslint-plugin-react-hooks": "^4.3.0",
     "sass": "^1.43.5",
     "typescript": "^4.3.2",
-    "vite": "^2.6.4"
+    "vite": "^2.6.4",
+    "vite-plugin-svgr": "^0.6.0"
   }
 }

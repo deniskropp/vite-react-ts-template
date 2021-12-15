@@ -20,11 +20,14 @@
       "@/assets/*": ["./src/assets/*"],
       "@/components/*": ["./src/components/*"],
       "@/http/*": ["./src/http/*"],
+      "@/i18n/*": ["./src/i18n/*"],
       "@/layout/*": ["./src/layout/*"],
       "@/pages/*": ["./src/pages/*"],
       "@/router/*": ["./src/router/*"],
-      "@/utils/*": ["./src/utils/*"],
-    }
+      "@/theme/*": ["./src/theme/*"],
+      "@/utils/*": ["./src/utils/*"]
+    },
+    "types": ["vite/client", "vite-plugin-svgr/client"]
   },
   "include": ["./src"],
 }

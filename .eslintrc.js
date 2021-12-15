@@ -13,8 +13,9 @@ module.exports = {
     'react',
     'react-hooks',
     '@typescript-eslint/eslint-plugin',
+    'i18next',
   ],
-  extends: ['eslint:recommended'],
+  extends: ['eslint:recommended', 'plugin:i18next/recommended'],
   settings: {
     react: {
       version: 'detect',
@@ -28,5 +29,17 @@ module.exports = {
     quotes: ['error', 'single'],
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    '@typescript-eslint/no-unused-vars': [
+      'error',
+      {
+        vars: 'all',
+        args: 'after-used',
+        ignoreRestSiblings: false,
+        argsIgnorePattern: '^_',
+      },
+    ],
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn',
+    'i18next/no-literal-string': 'off',
   },
 };

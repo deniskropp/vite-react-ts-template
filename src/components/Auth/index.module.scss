@@ -1,0 +1,70 @@
+@import "../../assets/style/mixin";
+.auth {
+  height: 100%;
+  overflow: scroll;
+
+  .container {
+    width: 100%;
+    @include flex();
+    @include center();
+
+    .bannerWrapper {
+      @include flex-basis(50%);
+      @include flex();
+      @include center();
+      padding: 1.25rem  /* 20/16 */ 0;
+
+      .banner {
+        width: 100%;
+        max-width: 35.625rem  /* 570/16 */;
+      }
+    }
+    .formWrapper {
+      @include flex-basis(50%);
+      @include flex();
+      @include center();
+      padding: 1.25rem  /* 20/16 */ 0;
+
+      .form {
+        width: 100%;
+        max-width: 28.125rem  /* 450/16 */;
+        .formContent {
+          @include flex(column);
+
+          .formItem {
+            margin-top: 1.5rem  /* 24/16 */;
+          }
+
+          .rememberMe {
+            @include flex(row);
+            @include space(space-between);
+            @include center-v();
+          }
+
+          .register {
+            margin-top: 1.5rem  /* 24/16 */;
+          }
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+
+    .container {
+
+      .bannerWrapper {
+        @include flex-basis(0);
+
+        .banner {
+        }
+      }
+      .formWrapper {
+        @include flex-basis(100%);
+
+        .form {
+        }
+      }
+    }
+  }
+}
