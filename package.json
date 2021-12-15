@@ -1,6 +1,6 @@
 {
   "name": "vite-react-ts-template",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Create application with Vite+React+React Router(v6)+Typescript+Router+@mui/material+i18n authentication",
   "author": "Adam Chen",
   "license": "MIT",
@@ -10,7 +10,9 @@
     "vite-react-ts",
     "vite-react-template",
     "vite-react-ts-template",
-    "vite create react"
+    "vite create react",
+    "i18n",
+    "material"
   ],
   "repository": {
     "type": "git",
